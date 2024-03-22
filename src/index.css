@@ -1,0 +1,73 @@
+@import "~normalize.css/normalize.css";
+
+:root {
+  --color-main: #333333;
+  --color-main_lighten: #3333331a;
+  --color-secondary: #ffffff;
+  --color-accent: #cc6633;
+  --color-positive: #A4CC33;
+  --color-negative: #CC3361;
+  --color-grey_light: #f4f4f4;
+  --color-grey_lighten: #f3f3f3;
+  --color-grey: #d9d9d9;
+  --color-grey_darken: #c4c4c4;
+  --color-grey_dark: #999999;
+  --color-grey_darkest: #666666;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+* {
+  color: var(--color-main);
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-grey_light);
+  font-size: 14px;
+  line-height: 1.2;
+  font-family: 'Roboto', serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style: none;
+}
