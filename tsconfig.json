@@ -19,10 +19,12 @@
 
     "baseUrl": "./",
     "paths": {
-      "@constants": ["./src/constants.ts"],
-      "@fonts": ["./src/fonts.ts"],
+      "@constants/*": ["./src/constants.ts"],
+      "@fonts/*": ["./src/fonts.ts"],
       "@api/*": ["./src/api/*"],
-      "@components/*": ["./src/components/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@ui/*": ["./src/ui/*"],
+      "@public/*": ["./public/*"],
       "@root/*": ["./*"],
     }
   },

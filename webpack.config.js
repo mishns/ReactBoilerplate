@@ -9,7 +9,7 @@ const IS_DEV = process.env.NODE_ENV;
 const IS_PROD = process.env.NODE_ENV;
 
 module.exports = {
-  entry: ["./src/index.tsx"],
+  entry: ["./src/main.tsx"],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js",
